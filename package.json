@@ -1,0 +1,58 @@
+{
+  "name": "node-tourico",
+  "version": "1.0.0",
+  "description": "Tourico connector for nodeJs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shuhailshuvo/node-tourico.git"
+  },
+  "keywords": [
+    "nodejs",
+    "tourico",
+    "wsdl",
+    "soap"
+  ],
+  "author": "shuhail",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/shuhailshuvo/node-tourico/issues"
+  },
+  "homepage": "https://github.com/shuhailshuvo/node-tourico#readme",
+  "dependencies": {
+    "bluebird": "^3.5.0",
+    "concat-stream": "^1.5.1",
+    "debug": "^2.6.9",
+    "ejs": "~2.5.5",
+    "finalhandler": "^1.0.3",
+    "lodash": "^4.17.5",
+    "request": ">=2.9.0",
+    "sax": ">=0.6",
+    "selectn": "^0.9.6",
+    "serve-static": "^1.11.1",
+    "strip-bom": "~0.3.1",
+    "uuid": "^3.1.0",
+    "xml-crypto": "~0.8.0"
+  },
+  "devDependencies": {
+    "body-parser": "^1.15.2",
+    "colors": "^1.1.2",
+    "coveralls": "^2.11.6",
+    "diff": "^2.2.1",
+    "doctoc": "^1.0.0",
+    "duplexer": "~0.1.1",
+    "express": "^4.14.0",
+    "glob": "~3.2.8",
+    "jshint": "2.3.0",
+    "mocha": "~1.17.0",
+    "nyc": "^11.4.1",
+    "readable-stream": "~2.0.2",
+    "semver": "~5.0.3",
+    "should": "~3.3.0",
+    "sinon": "^1.17.5",
+    "timekeeper": "~0.0.4"
+  }
+}
