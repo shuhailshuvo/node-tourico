@@ -39,14 +39,14 @@ Add headers:
         'aut:Version': version
       }
     };
-    tourico.addSoapHeaderAsync(header);
+    client.addSoapHeaderAsync(header);
   });
 ```
 
 Set SOAP Action:
 
 ```
-  tourico.setSOAPAction(actionUrl);
+  client.setSOAPAction(actionUrl);
 ```
 
 Call API:
@@ -66,5 +66,5 @@ Call API:
       }
     }
   }
-  tourico.SearchHotelsByIdAsync(inputs);
+  client.SearchHotelsByIdAsync(inputs);
 ```
